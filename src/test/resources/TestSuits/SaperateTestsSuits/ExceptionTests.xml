@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Exception Test Suit" verbose="1" >
+
+    <test name="Exception Test" >
+        <parameter name="browser"  value="Chrome"/>
+        <classes>
+            <class name="com.herokuapp.theinternet.ExceptionsTests" >
+                <methods>
+                    <include name="disabledElementTest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
